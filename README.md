@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in JavaScript related to null checks using the strict equality operator (===).  The `bug.js` file showcases the issue, where the function `foo` returns `null` if either `a` or `b` is `null`. The solution, provided in `bugSolution.js`, illustrates how to properly handle both `null` and `undefined` values to avoid unexpected results.
